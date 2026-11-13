@@ -19,14 +19,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Если в ваших стилях уже задан размер и рамки - оставьте их */
+    width: 40px !important;
+    height: 40px !important;
+    background: transparent !important;
+    border: 1px solid #a3ff00 !important; /* Оставляем зеленую рамку */
+    border-radius: 8px; /* Скругляем углы рамки */
+    overflow: hidden; /* Обрезаем все, что вылезает */
 }
 
-/* Настройки для самой картинки внутри */
 .feature-icon img {
-    width: 40px;  /* Ширина иконки (подгоните под дизайн) */
-    height: 40px; /* Высота иконки */
-    object-fit: contain; /* Чтобы иконка не искажалась */
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; /* Заполняем квадрат */
+    
+    /* ВОТ ЭТА МАГИЯ УБИРАЕТ БЕЛЫЙ ФОН (если картинки на белом фоне) */
+    mix-blend-mode: screen; 
 }
 /* Настройки для контейнера с картинкой */
 .equipment-visual {
