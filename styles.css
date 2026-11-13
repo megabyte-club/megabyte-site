@@ -231,21 +231,19 @@
 @media ( max-width: 680px ) {
     /* --- 1. БЛОК ПРЕИМУЩЕСТВ (КОМПАКТНЫЙ) --- */
     /* Растягиваем картинку на всю ширину на телефоне */
-    .hero-visual {
-        width: 100% !important;
-        margin: 0 !important; 
+        width: 100vw !important; /* Ширина ровно по экрану */
+        margin-left: calc(-50vw + 50%) !important; /* Сдвиг влево, чтобы перекрыть отступы родителя */
         padding: 0 !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
     }
     
+    /* Сама картинка тоже без отступов */
     .hero-image {
-        width: 100vw !important; /* 100% ширины экрана */
-        max-width: 100vw !important;
-        min-height: 300px !important; 
-        border-radius: 0 !important; /* Убираем скругление углов по бокам */
-        
-        /* Этот хак сдвигает картинку влево, чтобы компенсировать отступы контейнера */
-        margin-left: calc(-50vw + 50%) !important; 
+        width: 100vw !important;
+        border-radius: 0 !important; /* Убираем скругление, если оно есть */
     }
+}
     .features {
         display: flex !important;
         flex-direction: column !important;
