@@ -97,13 +97,12 @@ document.getElementById('bookingForm').addEventListener('submit', function(event
     message.textContent = "Отправка...";
     message.style.color = "white";
 
-    const webhookUrl = "https://megabyteadmin-bot.onrender.com/webhook";
+    const webhookUrl = "https://hook.us2.make.com/rt2apfp7nhrnjg6xric54ct4yh3myuwh";
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 60000);
 
     fetch(webhookUrl, {
         method: 'POST',
-        mode: 'no-cors',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
         signal: controller.signal
