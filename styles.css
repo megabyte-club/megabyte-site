@@ -1,0 +1,324 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:#080a0b;color:#f4f5f2;font-family:Manrope,Arial,sans-serif;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at 85% 18%,#35105a25,transparent 35%),radial-gradient(ellipse at 5% 48%,#39ff1420,transparent 34%);z-index:-2}.noise{position:fixed;inset:0;pointer-events:none;opacity:.035;z-index:10;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E")}.green{color:#53ff16}.purple,.purple-text{color:#b76aff}.section-wrap,.header{width:min(1180px,calc(100% - 64px));margin-inline:auto}.header{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff15;position:relative;z-index:20}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff}.brand-mark{width:42px;height:42px;border:1px solid #55ff19;display:grid;place-items:center;color:#57ff19;font-size:24px;font-weight:900;transform:skew(-8deg);box-shadow:0 0 18px #53ff1640}.brand-mark span{color:#b76aff}.brand-name{font-size:20px;font-weight:900;letter-spacing:-1px;color:#53ff16}.brand-name span{color:#b76aff}.nav{display:flex;align-items:center;gap:28px}.nav a{font-size:11px;font-weight:800;color:#eee;text-decoration:none;letter-spacing:.04em;transition:.25s}.nav a:hover{color:#59ff19}.nav .nav-cta{padding:13px 18px;border:1px solid #56ff1a;color:#56ff1a;box-shadow:0 0 18px #56ff1a25}.nav-cta span{margin-left:8px}.menu-toggle{display:none;background:none;border:0}.hero{min-height:535px;position:relative;display:grid;grid-template-columns:1fr 1.05fr;align-items:center;overflow:hidden}.hero-copy{position:relative;z-index:2;padding:55px 0}.eyebrow,.section-kicker{font-size:10px;letter-spacing:.2em;color:#58ff1c;font-weight:800}.pulse{display:inline-block;width:7px;height:7px;background:#59ff1a;border-radius:50%;margin-right:9px;box-shadow:0 0 12px #59ff1a;animation:pulse 1.5s infinite}@keyframes pulse{50%{opacity:.3;box-shadow:0 0 2px #59ff1a}}h1{font-size:clamp(37px,5vw,66px);line-height:.99;letter-spacing:-.055em;margin:23px 0 17px;font-weight:900}.hero-lead{color:#c7c9c5;font-size:14px;line-height:1.65}.hero-tags{display:flex;flex-wrap:wrap;gap:8px 15px;margin:26px 0 30px}.hero-tags span{font-size:10px;font-weight:800;color:#dfe2dc}.hero-tags span:before{content:"／";color:#5aff1b;margin-right:4px}.button{display:inline-flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;font-size:11px;font-weight:900;letter-spacing:.06em;padding:15px 22px;transition:.25s;cursor:pointer}.button-outline{color:#fff;border:1px solid #5aff1b;clip-path:polygon(9% 0,100% 0,100% 72%,91% 100%,0 100%,0 28%);background:#111612}.button-outline:hover,.button-green:hover{transform:translateY(-3px);box-shadow:0 0 25px #54ff1a70}.hero-visual{height:420px;position:relative;margin-right:-8vw}.hero-image{position:absolute;inset:0;background:url("https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=1500&q=90") center/cover;filter:saturate(.8);mask-image:linear-gradient(90deg,transparent,#000 18%)}.hero-image-shade{position:absolute;inset:0;background:linear-gradient(90deg,#080a0b 0%,transparent 38%),linear-gradient(0deg,#080a0b 0%,transparent 50%),linear-gradient(135deg,#51ff1625,transparent 55%)}.hero-stamp{position:absolute;right:20%;bottom:11%;border:1px solid #55ff1a;padding:13px 18px;background:#080a0bd9;display:flex;align-items:center;gap:12px;box-shadow:0 0 25px #55ff1a30}.hero-stamp b{font-size:30px;color:#55ff1a}.hero-stamp small{font-size:9px;line-height:1.5;font-weight:800}.hero-corner{position:absolute;inset:16px 12% 16px 12%;border:1px solid #a855f744;pointer-events:none}.hero-bottom{position:absolute;bottom:18px;left:0;right:0;display:flex;gap:22px;align-items:center;font-size:9px;letter-spacing:.14em;color:#777}.scroll-line{height:1px;background:#56ff1a;width:100px}.features{border:1px solid transparent;border-image:linear-gradient(100deg,#55ff1a,#b45bff) 1;display:grid;grid-template-columns:repeat(4,1fr);padding:28px 32px;gap:25px;background:linear-gradient(110deg,#0b100d,#0b0a10)}.feature-card{padding:0 12px}.feature-icon{width:43px;height:43px;border:1px solid #55ff1a;border-radius:13px;display:grid;place-items:center;font-size:21px;color:#61ff27;box-shadow:0 0 13px #55ff1a35;margin-bottom:13px}.feature-card h3{font-size:12px;color:#55ff1a;margin:0 0 8px}.feature-card p{font-size:11px;color:#d7d8d5;line-height:1.5;margin:0}.section-pad{padding-top:100px}.section-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:32px}.section-heading h2{font-size:clamp(34px,4vw,48px);line-height:1;margin:9px 0 0;letter-spacing:-.05em}.heading-dot{color:#58ff19}.heading-note{font-size:9px;letter-spacing:.18em;color:#777}.tariff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.tariff-card{position:relative;border:1px solid #5aff1a;border-radius:24px;padding:25px 24px 19px;background:linear-gradient(145deg,#111512,#0a0b0d 65%);box-shadow:inset 0 0 25px #54ff1a08;transition:.3s}.tariff-card:after{content:"";position:absolute;inset:-1px;border-radius:24px;border:1px solid #b35dff;opacity:.35;pointer-events:none;transform:translate(4px,4px)}.tariff-card:hover{transform:translateY(-7px);box-shadow:0 15px 45px #55ff1a12}.tariff-card.featured{border-color:#b45bff;box-shadow:0 0 25px #b45bff18}.tariff-title{font-size:19px;font-weight:900;color:#59ff1a;margin-bottom:19px}.tariff-title span{font-size:16px}.tariff-row{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #ffffff17;font-size:12px}.tariff-row b{color:#b76aff;font-size:12px}.featured .tariff-row b{color:#5aff1a}.popular{position:absolute;top:-12px;right:18px;background:#b45bff;color:white;padding:5px 10px;font-size:8px;font-weight:900;letter-spacing:.1em}.card-link{display:flex;justify-content:space-between;color:#58ff1a;text-decoration:none;font-size:9px;font-weight:900;letter-spacing:.12em;margin-top:20px}.console-block{margin-top:34px;border:1px solid #59ff1a;padding:30px;display:grid;grid-template-columns:1fr 1fr;gap:35px;position:relative;background:linear-gradient(110deg,#111713,#0b0b10);overflow:hidden}.console-block:after{content:"";position:absolute;width:300px;height:300px;border:1px solid #a95dff;transform:rotate(45deg);right:-180px;top:-160px;box-shadow:0 0 40px #56ff1a25}.console-copy h3{font-size:30px;margin:12px 0}.console-copy p{max-width:380px;color:#bfc2bc;font-size:12px;line-height:1.7}.console-chips{display:flex;gap:8px;margin-top:22px}.console-chips span{border:1px solid #ffffff30;padding:7px 10px;font-size:9px;color:#b8b8b8}.console-prices{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:0 22px;align-content:center}.console-prices div{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid #ffffff20;font-size:12px}.console-prices b{color:#5aff1a}.button-green{background:#55ff18;color:#071006;border:0;box-shadow:0 0 22px #55ff1a40}.console-prices .button{grid-column:1/-1;margin-top:20px}.console-prices small{grid-column:1/-1;color:#777;font-size:9px;margin-top:10px}.equipment-panel{border:1px solid #53ff1a;padding:30px;display:grid;grid-template-columns:1.1fr 1fr;gap:30px;align-items:center;background:linear-gradient(115deg,#0c120e,#090a0c)}.spec-list{display:grid;grid-template-columns:repeat(3,1fr);gap:25px 15px}.spec{display:flex;align-items:center;gap:10px}.spec-icon{width:38px;height:38px;flex:none;border:1px solid #56ff1a;display:grid;place-items:center;color:#58ff1a;font-size:18px;clip-path:polygon(25% 0,75% 0,100% 25%,100% 75%,75% 100%,25% 100%,0 75%,0 25%)}.spec b,.spec small{display:block}.spec b{font-size:9px;color:#5aff1a;margin-bottom:5px}.spec small{font-size:9px;color:#c4c7c1;line-height:1.4}.equipment-photo{height:210px;background:linear-gradient(0deg,#07090888,#07090822),url("https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=crop&w=1000&q=85") center/cover;display:flex;align-items:end;padding:18px}.equipment-photo span{font-size:20px;font-weight:900;line-height:1.1;letter-spacing:.05em;text-shadow:0 2px 10px #000}.gallery-controls{display:flex;gap:8px}.gallery-controls button{width:42px;height:42px;border:1px solid #59ff1a;background:transparent;color:#59ff1a;font-size:20px;cursor:pointer;transition:.2s}.gallery-controls button:hover{background:#59ff1a;color:#080a0b}.gallery-window{overflow:hidden}.gallery-track{display:flex;gap:18px;transition:transform .55s cubic-bezier(.2,.8,.2,1)}.gallery-item{position:relative;flex:0 0 calc(50% - 9px);height:310px;margin:0;overflow:hidden;background:#141717}.gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .7s}.gallery-item:hover img{transform:scale(1.06)}.gallery-item:after{content:"";position:absolute;inset:40% 0 0;background:linear-gradient(transparent,#050606d9)}.gallery-item figcaption{position:absolute;z-index:1;left:22px;bottom:20px;display:grid;gap:6px}.gallery-item figcaption b{font-size:10px;color:#5aff1a;letter-spacing:.13em}.gallery-item figcaption span{font-size:14px;font-weight:900}.gallery-foot{display:flex;align-items:center;gap:18px;margin-top:18px;font-size:9px;letter-spacing:.12em;color:#858585}.gallery-progress{height:2px;background:#ffffff20;flex:1}.gallery-progress i{display:block;width:25%;height:100%;background:#59ff1a;transition:width .3s}.gallery-note{font-size:10px;color:#777}.booking-box{border:1px solid #59ff1a;padding:38px;display:grid;grid-template-columns:1fr 1fr;gap:40px;background:linear-gradient(110deg,#0d120e,#0a0a0e);position:relative;overflow:hidden}.booking-box:after{content:"";position:absolute;right:-100px;bottom:-200px;width:350px;height:350px;border:1px solid #a85cff;transform:rotate(45deg);pointer-events:none}.booking-copy h2{font-size:clamp(28px,3.6vw,43px);line-height:1.12;letter-spacing:-.04em;margin:18px 0}.booking-copy p{font-size:13px;color:#c1c4be;line-height:1.7}.booking-form{position:relative;z-index:1;display:grid;gap:13px}.booking-form label{display:grid;gap:7px;font-size:9px;font-weight:900;letter-spacing:.12em;color:#58ff1a}.booking-form input,.booking-form select{width:100%;background:#080a0b;border:1px solid #ffffff25;color:#fff;padding:12px;font:inherit;font-size:12px;outline:none}.booking-form input:focus,.booking-form select:focus{border-color:#59ff1a}.booking-form select option{background:#080a0b}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.booking-form small{font-size:9px;color:#777}.form-message{margin:0;font-size:11px;color:#5aff1a}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.contact-card{border:1px solid #ffffff24;padding:24px;background:#0c0f0d}.contact-card span,.contact-card b,.contact-card small{display:block}.contact-card span{font-size:9px;letter-spacing:.15em;color:#59ff1a;margin-bottom:14px}.contact-card b{font-size:16px}.contact-card small{font-size:11px;color:#92958f;margin-top:7px}.footer{display:flex;align-items:center;justify-content:space-between;padding-top:35px;padding-bottom:35px;margin-top:80px;border-top:1px solid #ffffff20}.footer>span,.footer>a:last-child{font-size:9px;letter-spacing:.12em;color:#777;text-decoration:none}.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}
+@media(max-width:900px){.section-wrap,.header{width:min(100% - 40px,700px)}.nav{gap:15px}.nav a{font-size:9px}.nav .nav-cta{padding:10px}.hero{min-height:480px}.hero-visual{margin-right:-15vw}.features{padding:24px 18px;gap:18px}.feature-card{padding:0 4px}.feature-card p{font-size:10px}.tariff-card{padding:22px 18px}.equipment-panel{grid-template-columns:1fr}.equipment-photo{height:260px}}
+@media(max-width:680px){html{scroll-padding-top:70px}.section-wrap,.header{width:calc(100% - 34px)}.header{height:72px}.brand-mark{width:36px;height:36px}.brand-name{font-size:17px}.menu-toggle{display:flex;flex-direction:column;gap:5px;padding:10px;z-index:22}.menu-toggle i{display:block;width:23px;height:2px;background:#5aff1a;transition:.25s}.nav{position:absolute;top:71px;left:-17px;right:-17px;background:#090c0a;border-bottom:1px solid #5aff1a;display:flex;flex-direction:column;align-items:stretch;gap:0;padding:10px 22px 20px;opacity:0;visibility:hidden;transform:translateY(-10px);transition:.25s}.nav.open{opacity:1;visibility:visible;transform:none}.nav a{font-size:12px;padding:14px 0;border-bottom:1px solid #ffffff12}.nav .nav-cta{margin-top:12px;text-align:center;padding:13px}.menu-toggle.active i:first-child{transform:translateY(7px) rotate(45deg)}.menu-toggle.active i:nth-child(2){opacity:0}.menu-toggle.active i:last-child{transform:translateY(-7px) rotate(-45deg)}.hero{display:block;min-height:590px;padding-top:30px}.hero-copy{padding:20px 0;z-index:3}.eyebrow{font-size:9px}h1{font-size:clamp(38px,11vw,55px);margin:20px 0 13px}.hero-lead{font-size:12px}.desktop-only{display:none}.hero-tags{gap:8px 10px;margin:20px 0}.hero-tags span{font-size:9px}.hero-visual{position:absolute;left:0;right:-15px;bottom:20px;height:260px;margin:0;opacity:.85}.hero-image{mask-image:linear-gradient(180deg,transparent,#000 10%)}.hero-image-shade{background:linear-gradient(0deg,#080a0b 0%,transparent 65%),linear-gradient(90deg,#080a0b 0%,transparent 70%)}.hero-stamp{right:8%;bottom:12%;padding:8px 12px}.hero-stamp b{font-size:23px}.hero-bottom{bottom:0;font-size:8px}.features{grid-template-columns:repeat(2,1fr);padding:22px 15px;gap:25px 12px}.feature-icon{width:38px;height:38px;margin-bottom:10px}.feature-card h3{font-size:11px}.feature-card p{font-size:10px}.section-pad{padding-top:70px}.section-heading{margin-bottom:23px}.section-heading h2{font-size:36px}.heading-note{font-size:8px}.tariff-grid{grid-template-columns:1fr;gap:17px}.tariff-card{padding:22px 22px 18px}.tariff-row{font-size:12px}.console-block{grid-template-columns:1fr;padding:23px 18px;gap:15px}.console-copy h3{font-size:27px}.console-prices{gap:0 15px}.equipment-panel{padding:20px 15px;gap:20px}.spec-list{grid-template-columns:repeat(2,1fr);gap:20px 10px}.spec{gap:8px}.spec-icon{width:33px;height:33px}.spec b,.spec small{font-size:8px}.equipment-photo{height:190px}.gallery-item{flex-basis:88%;height:260px}.gallery-controls button{width:36px;height:36px}.booking-box{grid-template-columns:1fr;padding:25px 18px;gap:22px}.booking-copy h2{font-size:31px}.contact-grid{grid-template-columns:1fr}.contact-card{padding:20px}.footer{margin-top:55px;gap:15px;flex-wrap:wrap}.footer .brand{width:100%}.footer>span,.footer>a:last-child{font-size:8px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+.hero-image {
+    background-image: url('imgg/hero1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    min-height: 400px; /* Задает высоту, если блок пустой */
+    
+    /* Плавная растушевка краев, как в Figma */
+    -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 90%);
+    mask-image: radial-gradient(ellipse at center, black 40%, transparent 90%);
+}
+.feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Если в ваших стилях уже задан размер и рамки - оставьте их */
+}
+
+/* Настройки для самой картинки внутри */
+.feature-icon img {
+    width: 40px;  /* Ширина иконки (подгоните под дизайн) */
+    height: 40px; /* Высота иконки */
+    object-fit: contain; /* Чтобы иконка не искажалась */
+}
+/* Настройки для контейнера с картинкой */
+.equipment-visual {
+    position: relative; /* Чтобы текст READY TO PLAY можно было позиционировать поверх картинки */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Контейнер для иконок в блоке "Наши ПК" */
+.spec-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;  /* Ширина контейнера */
+    height: 32px; /* Высота контейнера */
+    flex-shrink: 0; /* Чтобы контейнер не сжимался */
+}
+
+/* Сами картинки внутри этого контейнера */
+.spec-icon img {
+    width: 100%;      /* Картинка займет всю ширину контейнера (32px) */
+    height: 100%;     /* И всю высоту */
+    object-fit: contain; /* Картинка не исказится */
+    display: block;
+}
+/* --- БЛОК "НАШИ ПК" --- */
+.equipment-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #a3ff00; 
+    border-radius: 20px;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Левая часть: делаем сетку из 3 колонок, но элементы идут в ряд (иконка + текст) */
+.spec-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    gap: 30px 20px; 
+    width: 55%; 
+}
+
+/* Отдельный блок (иконка слева, текст справа) */
+.spec {
+    display: flex;
+    flex-direction: row; /* Ставим иконку и текст в ряд! */
+    align-items: center; /* Центрируем по вертикали */
+    gap: 15px; /* Расстояние между иконкой и текстом */
+    text-align: left; /* Текст выравниваем по левому краю */
+}
+
+/* Шестиугольник */
+.spec-icon {
+    width: 50px;
+    height: 55px;
+    flex-shrink: 0; /* Чтобы иконка не сжималась */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.spec-icon::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #a3ff00;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    z-index: -1;
+}
+
+.spec-icon::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background-color: #080a0b;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    z-index: -1;
+}
+
+.spec-icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    z-index: 1;
+}
+
+/* Обертка для текста (b и small), чтобы они стояли друг под другом */
+.spec > div { 
+    display: flex;
+    flex-direction: column;
+}
+
+.spec b {
+    color: #fff; /* В Figma текст белый */
+    font-size: 13px;
+    margin-bottom: 4px;
+    text-transform: capitalize; /* Делает первую букву заглавной (Процессор) */
+}
+
+.spec small {
+    color: #888;
+    font-size: 11px;
+    line-height: 1.3;
+}
+
+/* Правая часть с картинкой */
+.equipment-photo {
+    width: 45%; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Картинка монитора */
+.equipment-img {
+    width: 100%; 
+    max-width: 500px; /* Чтобы картинка не была гигантской */
+    height: auto;
+    object-fit: contain;
+    position: relative; 
+    right: 0;
+    
+    /* Растушевка краев */
+    -webkit-mask-image: radial-gradient(ellipse at center, black 50%, transparent 90%);
+    mask-image: radial-gradient(ellipse at center, black 50%, transparent 90%);
+}
+
+/* Текст READY TO PLAY (справа снизу) */
+.equipment-photo span {
+    position: absolute;
+    right: 5%; /* Сдвинули левее (было 10%) */
+    bottom: 95%; /* Опустили сильно вниз (было 20%) */
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #fff;
+    text-align: left;
+    z-index: 10; 
+    text-shadow: 0 0 10px rgba(0,0,0,1);
+}
+/* Чтобы цены в тарифах стояли в два столбца ровно */
+.tariff-row > div {
+    display: flex;
+    justify-content: space-between;
+    min-width: 110px; /* Ширина для двух цен */
+    text-align: right;
+}
+
+/* Чуть уменьшим размер шрифта для выходных, чтобы влезло */
+.tariff-row b {
+    font-size: 14px;
+}
+/* Эффект при наведении на карточки тарифов (Стандарт, Дуо, Вип) */
+.tariff-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.tariff-card:hover {
+    transform: translateY(-10px) scale(1.03); 
+    box-shadow: 0 10px 30px rgba(163, 255, 0, 0.2); 
+    z-index: 10; 
+}
+
+/* Эффект при наведении на блок PlayStation 5 */
+.console-block {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.console-block:hover {
+    transform: translateY(-5px) scale(1.01); 
+    box-shadow: 0 10px 30px rgba(163, 255, 0, 0.15);
+}
+.contact-link {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+.contact-link:hover {
+    color: #a3ff00;
+    text-shadow: 0 0 10px rgba(163, 255, 0, 0.5);
+}
+/* =========================================
+   ВСЕ ПРАВИЛА ДЛЯ МОБИЛЬНОЙ ВЕРСИИ (ТЕЛЕФОНОВ)
+   ========================================= */
+@media ( max-width: 680px ) {
+    /* --- 1. БЛОК ПРЕИМУЩЕСТВ (КОМПАКТНЫЙ) --- */
+    .features {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 15px !important; 
+        padding: 15px !important;
+        border: 1px solid #444 !important; 
+        border-radius: 15px !important;
+    }
+
+    /* Карточка: иконка СЛЕВА, текст СПРАВА */
+    .feature-card {
+        display: flex !important;
+        flex-direction: row !important; /* В ряд */
+        align-items: center !important; /* Выравниваем по центру */
+        gap: 15px !important;
+        padding: 10px 0 !important;
+        border-bottom: 1px solid #222 !important;
+    }
+    
+    .feature-card:last-child {
+        border-bottom: none !important;
+        padding-bottom: 0 !important;
+    }
+
+    /* Иконка (не сжимается и не вылезает) */
+    .feature-icon {
+        margin-bottom: 0 !important;
+        flex-shrink: 0 !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    /* Группируем текст справа */
+    .feature-card > div {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    /* НОРМАЛЬНЫЙ размер шрифта для заголовка */
+    .feature-card h3 {
+        font-size: 15px !important; 
+        margin-bottom: 4px !important;
+        margin-top: 0 !important;
+        text-align: left !important;
+    }
+
+    /* НОРМАЛЬНЫЙ размер шрифта для описания */
+    .feature-card p {
+        font-size: 13px !important;
+        text-align: left !important;
+        line-height: 1.3 !important;
+        margin-top: 0 !important;
+        color: #ccc !important; /* Чуть светлее для читаемости */
+    }
+
+    /* --- 2. ФОТО КЛУБА (ГАЛЕРЕЯ) --- */
+    .gallery-item {
+        flex: 0 0 100% !important; /* 1 фото на экран */
+    }
+
+    .gallery-item img {
+        width: 100% !important;
+        height: 250px !important; 
+        object-fit: cover !important; 
+        border-radius: 10px !important;
+    }
+
+    /* --- 3. ОСТАЛЬНОЕ --- */
+    .equipment-text, .equipment-photo span, .equipment-visual span { display: none !important; }
+    .spec-list { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 15px 10px !important; width: 100% !important; }
+    .spec b { font-size: 11px !important; }
+    .spec small { font-size: 10px !important; }
+    .hero { display: flex !important; flex-direction: column !important; }
+    .hero-visual { width: 100% !important; margin-top: 20px !important; margin-bottom: 20px !important; }
+    .hero-image { min-height: 250px !important; }
+    h1 { font-size: 32px !important; line-height: 1.1 !important; }
+    h2 { font-size: 28px !important; }
+    .section-wrap { padding-left: 15px !important; padding-right: 15px !important; }
+    .booking-form input, .booking-form select, .booking-form button { font-size: 16px !important; padding: 12px !important; }
+}
+@media (max-width: 908px) {
+    /* Скрываем картинку с монитором на телефонах */
+    .equipment-photo, 
+    .equipment-visual,
+    .equipment-img {
+        display: none !important;
+    }
+
+    /* Так как картинки нет, делаем левую часть (список) на всю ширину */
+    .spec-list {
+        width: 100% !important;
+    }
+    
+    /* Убираем отступы у панели, чтобы она не была пустой справа */
+    .equipment-panel {
+        padding: 15px !important;
+    }
+}
