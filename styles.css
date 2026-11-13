@@ -349,3 +349,29 @@
     display: inline-block;
     margin-right: 8px; /* Отступ от текста */
 }
+@media (min-width: 681px) {
+    .hero {
+        display: flex !important;
+        flex-direction: row !important; /* Текст слева, картинка справа */
+        align-items: center !important;
+    }
+    
+    .hero-visual {
+        width: 50% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        position: relative !important;
+    }
+    
+    .hero-image {
+        width: 100% !important;
+        height: 400px !important;
+        margin: 0 !important;
+        border-radius: 15px !important;
+    }
+
+    /* Галерея (чтобы не растягивалась) */
+    .gallery-item {
+        flex: 0 0 calc(50% - 10px) !important;
+    }
+}
