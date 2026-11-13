@@ -345,3 +345,13 @@
         padding: 15px !important;
     }
 }
+/* Принудительно делаем иконки в тарифах зелеными и текстовыми (без эмодзи) */
+.tariff-title span {
+    color: #a3ff00 !important; /* Зеленый цвет */
+    font-family: Arial, sans-serif !important; /* Заставляем телефон использовать обычный шрифт */
+    font-variant-emoji: text !important; /* Отключаем превращение в цветные/серые эмодзи */
+    -webkit-text-fill-color: #a3ff00 !important; /* Для Safari на iPhone */
+    text-shadow: 0 0 8px rgba(163, 255, 0, 0.4); /* Легкое неоновое свечение */
+    display: inline-block;
+    margin-right: 8px; /* Отступ от текста */
+}
