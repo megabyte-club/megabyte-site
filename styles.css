@@ -319,9 +319,6 @@
     .spec-list { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 15px 10px !important; width: 100% !important; }
     .spec b { font-size: 11px !important; }
     .spec small { font-size: 10px !important; }
-    .hero { display: flex !important; flex-direction: column !important; }
-    .hero-visual { width: 100% !important; margin-top: 20px !important; margin-bottom: 20px !important; }
-    .hero-image { min-height: 250px !important; }
     h1 { font-size: 32px !important; line-height: 1.1 !important; }
     h2 { font-size: 28px !important; }
     .section-wrap { padding-left: 15px !important; padding-right: 15px !important; }
