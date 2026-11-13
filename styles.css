@@ -344,19 +344,6 @@
     .equipment-panel {
         padding: 15px !important;
     }
-    .hero-visual {
-        width: 100vw !important; /* Ширина ровно по экрану */
-        margin-left: calc(-50vw + 50%) !important; /* Сдвиг влево, чтобы перекрыть отступы родителя */
-        padding: 0 !important;
-        margin-top: 20px !important;
-        margin-bottom: 20px !important;
-    }
-    
-    /* Сама картинка тоже без отступов */
-    .hero-image {
-        width: 100vw !important;
-        border-radius: 0 !important; /* Убираем скругление, если оно есть */
-    }
 }
 /* Принудительно делаем иконки в тарифах зелеными и текстовыми (без эмодзи) */
 .tariff-title span {
