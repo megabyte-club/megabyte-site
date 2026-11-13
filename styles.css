@@ -234,12 +234,10 @@
     .hero-visual {
         width: 100vw !important;
         max-width: 100vw !important;
-        margin-left: calc(-50vw + 50%) !important; /* Сдвиг к краям экрана */
         padding: 0 !important;
     }
     
     .hero-image {
-        width: 100% !important;
         height: 350px !important; /* Задаем высоту, чтобы блок не схлопнулся */
         background-size: cover !important; /* Растягиваем фон */
         background-position: center !important;
